@@ -1,0 +1,39 @@
+/* XssPrevention.css */
+.xss-prevention-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .xss-prevention-card {
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .xss-prevention-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .xss-prevention-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .order {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+ 

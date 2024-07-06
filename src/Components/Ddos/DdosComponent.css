@@ -1,0 +1,48 @@
+/* DdosComponent.css */
+
+.ddos-container {
+    margin: 20px;
+  }
+  
+  .ddos-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .ddos-card {
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%; /* Cards take full width on small screens */
+    max-width: 600px; /* Set a maximum width for larger screens */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  .ddos-card:nth-child(7) {
+    margin:50px;
+    width: 800px; /* Increase the width of the 7th card */
+    overflow-y: scroll;
+    max-height: 700px; /* Set a maximum height for scroll */
+  }
+  .ddos-card:nth-child(8) {
+    margin:50px;
+    width: 800px;/* Increase the width of the 7th card */
+    overflow-y: scroll; /* Add vertical scroll bar */
+    max-height: 700px; /* Set a maximum height for scroll */
+  }
+  /* Responsive Design: Cards take more width as the screen size increases */
+  @media (min-width: 768px) {
+    .ddos-card {
+      width: calc(50% - 20px); /* Two cards per row with some gap */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .ddos-card {
+      width: calc(33.33% - 20px); /* Three cards per row with some gap */
+    }
+  }
+  
+  /* Add more styles as needed */
+  

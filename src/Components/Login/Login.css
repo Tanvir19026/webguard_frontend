@@ -1,0 +1,28 @@
+/* In a separate CSS file, e.g., GoogleSignUpButton.css */
+
+.google-signup-button {
+  background-color: #42f4ee; /* Google Blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.profileSection{
+  width: 350px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.google-signup-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

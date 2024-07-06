@@ -1,0 +1,52 @@
+.card {
+  transition: transform 0.3s;
+  width: 400px; /* Set the fixed width for the card */
+  height: 450px;
+}
+.card{
+  margin: 20px;
+}
+.heading {
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+}
+.card {
+  border: 1px solid #ccc;
+  margin: 15px;
+  padding: 25px;
+  text-align: center;
+}
+
+.card-image {
+  width: 100%; /* Set the image width to 100% to make it responsive */
+  max-height: 200px; /* Set the maximum image height */
+  object-fit: cover; /* Maintain image aspect ratio and cover the container */
+}
+/* Define a custom button class */
+
+
+/* Change button color on hover */
+
+.card-button {
+  position: absolute; /* Position the button absolutely within the card */
+  bottom: 15px; /* Distance from the bottom */
+  left: 50%; /* Horizontally center the button */
+  transform: translateX(-50%); /* Adjust the button's position */
+  width: 80%; /* Set the button width */
+   /* Button background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px;
+  background-color: #007bff; 
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.card-button:hover {
+  background-color: #0056b3; /* Darker shade of the button color on hover */
+}
+.card:hover {
+  transform: scale(1.05);
+}

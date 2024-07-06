@@ -1,0 +1,29 @@
+/* XssComponents.css */
+.xss-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+  }
+  
+  .xss-input {
+    margin-bottom: 20px;
+  }
+  
+  .xss-input label {
+    margin-right: 10px;
+  }
+  
+  .xss-textarea {
+    margin-bottom: 20px;
+   
+  }
+  
+  .xss-textarea label {
+    margin-right: 10px;
+  }
+  
+  .xss-warning {
+    color: red;
+  }
+  
